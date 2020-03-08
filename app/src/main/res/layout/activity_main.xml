@@ -5,8 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:marginEnd="@dimen/layout_margin"
-    android:marginStart="@dimen/layout_margin"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     tools:context=".MainActivity">
@@ -30,8 +28,9 @@
 
     <ScrollView
         android:id="@+id/bio_scroll"
-        android:layout_width="312dp"
-        android:layout_height="match_parent">
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingBottom="30dp">
 
         <TextView
             android:id="@+id/bio_text"
