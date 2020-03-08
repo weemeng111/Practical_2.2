@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Practical_2.1</string>
     <string name="name">Wee Meng</string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="done">Done</string>
     <string name="yellow_star">Yellow star</string>
     <string name="bio">Hi, my name is Aleks.
     \n\nI love fish.
